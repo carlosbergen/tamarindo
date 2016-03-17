@@ -1,0 +1,59 @@
+body, html{
+	font-family: 'Anonymous Pro';
+	height: 100%;
+	overflow-x: hidden;
+}
+#primary{
+	overflow-y: scroll;
+}
+#main{
+	padding-top: 20px;
+}
+article{
+	background-color: #fff;
+	padding: 1px 15px 15px 15px;
+}
+article h2{
+	margin-top:7px;
+}
+.blank{
+	height: 5px;
+}
+#masthead{
+	padding-left: 0 !important;
+	position:fixed;
+}
+#background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6d7b4+0,ed6217+100 */
+background: #f6d7b4; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6d7b4 0%, #ed6217 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f6d7b4 0%,#ed6217 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f6d7b4 0%,#ed6217 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6d7b4', endColorstr='#ed6217',GradientType=0 ); /* IE6-9 */
+z-index: -1;
+}
+.site-title{
+	display: inline-block;
+	background-color: #fff;
+	padding: 5px 10px;
+	margin-bottom: 40px;
+}
+a, a:visited, a:link{
+	text-decoration: none;
+	color: #333;
+
+}
+.main-navigation li{
+	float: none;
+	margin-bottom: 15px;
+}
+.main-navigation li a{
+	padding:5px 5px 5px 15px;
+	width:150px;
+	background-color: #fff;
+}
